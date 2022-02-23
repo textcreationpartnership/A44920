@@ -1,0 +1,691 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The compleat vineyard, or, A most excellent way for the planting of vines not onely according to the German and French way, but also long experimented in England : wherein are set forth the whole circumstances necessary for the planting a vineyard ... / by William Hughes.</title>
+            <author>Hughes, William, fl. 1665-1683.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1665</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 70 KB of XML-encoded text transcribed from 19 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A44920</idno>
+            <idno type="STC">Wing H3333</idno>
+            <idno type="STC">ESTC R5783</idno>
+            <idno type="EEBO-CITATION">12086420</idno>
+            <idno type="OCLC">ocm 12086420</idno>
+            <idno type="VID">53759</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A44920)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 53759)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 73:16)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The compleat vineyard, or, A most excellent way for the planting of vines not onely according to the German and French way, but also long experimented in England : wherein are set forth the whole circumstances necessary for the planting a vineyard ... / by William Hughes.</title>
+                  <author>Hughes, William, fl. 1665-1683.</author>
+               </titleStmt>
+               <extent>[8], 27 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by G.M. for W. Crooke ... and John Playfere ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1665.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in Huntington Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Viticulture --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-02</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-03</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-01</date>
+            <label>Pip Willcox</label>Sampled and proofread</change>
+         <change>
+            <date>2010-01</date>
+            <label>Pip Willcox</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2010-04</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:53759:1"/>
+            <pb facs="tcp:53759:1"/>
+            <p>THE Compleat Vineyard: OR A moſt excellent Way FOR THE PLANTING OF VINES: Not onely according to the German and French way, but alſo long experimented in <hi>England.</hi>
+            </p>
+            <p>WHEREIN Are ſet forth the whole circumſtan<g ref="char:EOLhyphen"/>ces neceſſary for the Planting a Vineyard, <hi>(viz.)</hi> The beſt election of your Soil; the ſcituation thereof; the beſt way for the Planting of your young Plants; the beſt time and manner of Proining, both the Stocks and Roots; the turning and tranſlation of the ground, <hi>&amp;c.</hi> With all other things neceſſary to the Plant; and the faſhion of your Wine Preſſes; with the manner of Bruiſing and Preſſing; and alſo how to advance our Engliſh Wines: never be<g ref="char:EOLhyphen"/>fore Printed.</p>
+            <p>By <hi>William Hughes.</hi>
+            </p>
+            <p>
+               <hi>LONDON,</hi> Printed by <hi>G. M.</hi> for <hi>W. Crooke,</hi> at the three Bibles on <hi>Fleet Bridge,</hi> and <hi>John Playfere,</hi> at the White Lion in the Upper Walk of the New <hi>Exchange,</hi> 1665.</p>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:53759:2"/>
+            <pb facs="tcp:53759:2"/>
+            <head>To the Reader.</head>
+            <opener>
+               <salute>Courteous Reader,</salute>
+            </opener>
+            <p>IT is the ſaying of the Philoſophers, that thoſe things are moſt principally to be taught and maintained, which in the Common<g ref="char:EOLunhyphen"/>wealth are most profitable and neceſſary: according to which opinion, if we conſider how profitable many acts of Husbandry have been to the Commonwealth, I think it neceſſary that this of <hi>Vines</hi> ſhould be made publick: for as <hi>Seneca, Cato, Varro, Columel<g ref="char:EOLhyphen"/>la,</hi> &amp;c. do affirm, the Planting of Vineyards have been more gain<g ref="char:EOLhyphen"/>ful then any other act of Husbandry whatſoever.</p>
+            <p>And it being manifeſt, that there have been plenty of Vineyards in, <hi>England</hi> heretofore, as Mr. <hi>Hollinſhead</hi> in his Hiſtory of <hi>Eng<g ref="char:EOLhyphen"/>land</hi> doth affirm, and <hi>Cambden</hi> in his Chronicle maketh mention; and ſome there are at this day both in <hi>Eſſex,</hi> and in the Weſt of <hi>Eng<g ref="char:EOLhyphen"/>land,</hi> as alſo in <hi>Kent,</hi> which produce great ſtore of excellent good Wine: I think it not impertinent to ſet down a way how we may of our Engliſh Grapes purchaſe a very good Wine; and the rather, for that I find the ſame to be both probable and poſſible, not only by Anti<g ref="char:EOLhyphen"/>quities, but alſo by experience, ſet down by Mr. <hi>Barnaby Googe,</hi> in his Book of Husbandry, as alſo by that inevitable Argument which be draweth from the ſame latitude of the Pole wherein we are, and under which there be found beyond the Seas moſt fruitful Vine<g ref="char:EOLhyphen"/>yards, and which doth yield both good and pleaſant Wines; as about <hi>Backrach, Colin, Andernach,</hi> and divers other places in <hi>Ger<g ref="char:EOLhyphen"/>many,</hi> which hath, as he affirmeth (and alſo others) the ſame La<g ref="char:EOLhyphen"/>titude and diſpoſition of the Heavens that we have; whereby is ſufficiently confuted that common received opinion againſt our Cli<g ref="char:EOLhyphen"/>mate, that is ſhould not be hot enough for that Plant: nay, he pre<g ref="char:EOLhyphen"/>veth
+<pb facs="tcp:53759:3"/>farther, that the wideneſs to the South is not altogether the cauſe of good Wines, as appeareth in, that you have about <hi>Orlance</hi> great ſtore of good and excellent Wine; whereas if you go to <hi>Bru<g ref="char:EOLhyphen"/>ges,</hi> two daeyes journey farther to the South, you ſhall finde a Wine not worth the drinking; the like is proved between <hi>Paris</hi> and <hi>Barleduke,</hi> aend divers other places,</p>
+            <p>And here I have juſt cauſe to accuſe the extream negligence and blockiſh ignorance of our people, who do moſt unjuſtly lay their wrong<g ref="char:EOLhyphen"/>ful accuſations upon the Soil, which truly may be removed on them<g ref="char:EOLhyphen"/>ſelves; for whereas neither in Paſture or arable ground, they look for any great increaſe without all the due and neceſſary circum<g ref="char:EOLhyphen"/>ſtances of Husbandry be performed to the ſame; yet in Vines onely they expect a plentiful Harveſt, or elſe they condemn the Soil; although they beſtow no other manuring, proining, or ordering of them, but onely cut or proine them in the twelve dayes, and that very careleſly, and without any due regard or choice had of the branches, which ſhould be taken away cloſe to the ſtock, and which ſhould be cut off between the third and fourth joynt, and many other obſervations as we ſhall hereafter ſhew in our fol<g ref="char:EOLhyphen"/>lowing diſcourſe: Therefore, in a word, I have juſt cauſe (as I ſaid) both by Travels, Diſcourſe, and Experience in <hi>England,</hi> and alſo out of it, to be fully perſwaded: Nay, I do know, that Plants by continuance of time and good ordering once made fa<g ref="char:EOLhyphen"/>milar with our Soil and Climate, will produce both full and good Wine.</p>
+            <p>This Method in Planting was uſed by that experienced Gard<g ref="char:EOLhyphen"/>ner <hi>M. K.</hi> Deceaſed; who for about twenty years practiſed the ſame in his own Countrey, <hi>Germany.</hi> And about the Year one thouſand ſix hundred thirty two became over into <hi>England,</hi> and from that time until the Year one thouſand ſix hundred fifty eight he practiſed the ſame here; from whoſe own mouth I turned it out of High Dutch into Engliſh my ſelf, having for ſome years before been an obſerver of his proceedings and operations; and ſince being abroad in the world, have added many obſervations of my own experience, both according to the German, French, and Engliſh practice; which if fully and rightly underſtood, is the full and ſole diſcour, a neceſſary for the producing of Engliſh Wine,
+<pb facs="tcp:53759:3"/>which is moſt natural to our constitutions, as I ſhall hereafter prove. Thus Reader, I deſire thee to excuſe the rudeneſs of the language, and the ſeveral faults thou meeteſt with; and however accept of my good will, who hath not written <hi>ad oſtentationem,</hi> I onoly now wiſh I were preſent at thy proceedings. <hi>Vale.</hi>
+            </p>
+            <closer>
+               <signed>William Hughes.</signed>
+            </closer>
+         </div>
+         <div type="list_of_contents">
+            <pb facs="tcp:53759:4"/>
+            <head>The Contents.</head>
+            <list>
+               <head>CHAP. I.</head>
+               <item>OF the excellency of the Vine.</item>
+               <item>Extream heat or extream cold not good for the Vine.</item>
+               <item>How to bring Vine plants from beyond Sea.</item>
+               <item>Vines to bear the firſt year.</item>
+               <item>Whether the Vine were known before the flood.</item>
+               <item>Vineyard more gainful then other Husbandry.</item>
+               <item>The divers wayes of dreſsing of Vines.</item>
+               <item>What tree is good, and what hurtful to the Vine.</item>
+               <item>The height of the Vineyard Vines.</item>
+               <item>Of the Grafting of Vines.</item>
+               <item>Of weeding the ground.</item>
+               <item>The beſt time to gather Grapes.</item>
+            </list>
+            <list>
+               <head>CHAP. II.</head>
+               <item>The ſiituation of the Vineyard.</item>
+               <item>The manner of fencing the Vineyard.</item>
+               <item>How the Vineyard ought to be laid before it be planted.</item>
+               <item>Of dunging the Vineyard, and when good.</item>
+            </list>
+            <list>
+               <head>CHAP. III.</head>
+               <item>The Vine a tree of the Sun.</item>
+               <item>Proining of Vines, and the time when.</item>
+               <item>Beſt not to proine till the ſecond or third Moneth.</item>
+               <item>When to lay open the roots of Vines.</item>
+               <item>What dung is beſt for Vines.</item>
+               <item>How to haſten the ripning of Grapes.</item>
+            </list>
+            <list>
+               <head>CHAP. IV.</head>
+               <item>The proining of Vines.</item>
+               <item>Cautions in proining of Vines.</item>
+               <item>How to chuſe your young plants.</item>
+               <item>The time when to gather your young plants.</item>
+            </list>
+            <list>
+               <head>CHAP. V.</head>
+               <item>Of proining.</item>
+               <item>How to order your young plants, to plant in <hi>May</hi> or <hi>June.</hi>
+               </item>
+               <item>When to water your young plants.</item>
+               <item>How the roots of your young plants ought to be left.</item>
+               <pb facs="tcp:53759:4"/>
+               <item>How to replant young plants,</item>
+               <item>The beſt time to plant, when.</item>
+               <item>At what diſtance the young plants ſhould be ſet.</item>
+               <item>The French way of planting.</item>
+               <item>At what diſtance the French uſually ſee their plants.</item>
+            </list>
+            <list>
+               <head>CHAP. VI.</head>
+               <item>Of weeding your ground.</item>
+            </list>
+            <list>
+               <head>CHAP. VII.</head>
+               <item>When good to take up your young plants.</item>
+               <item>The French way of cutting out plants.</item>
+               <item>The time when it is good to break off ſulperflnous branches.</item>
+               <item>How your Vine are ſupported and tyed.</item>
+               <item>When to take up your young plants.</item>
+            </list>
+            <list>
+               <head>CHAP. VIII.</head>
+               <item>How to defend the root of the Vines from mush heat and wet.</item>
+               <item>When to water the young plants.</item>
+               <item>The time when your Vines begin to flower.</item>
+            </list>
+            <list>
+               <head>CHAP. IX.</head>
+               <item>Grapes how they ripen beſt.</item>
+            </list>
+            <list>
+               <head>CHAP. X.</head>
+               <item>Obſervations in gathering your grapes.</item>
+               <item>How to preſerve the bunches till they are ripe.</item>
+               <item>How to know when your grapes are ripe.</item>
+               <item>The faſhion of your wine-preſſes.</item>
+               <item>How to bruiſe your grapes the beſt way.</item>
+               <item>Of divers things that belong to bruiſing your grapes.</item>
+               <item>Of the beſt Juice or Liquor.</item>
+               <item>How to make your Claret wine.</item>
+               <item>Wine-preſſes how they are made.</item>
+               <item>Another faſhion wine-preſs.</item>
+               <item>How to make other ſorts of wines, as of Rasbes, Cherries, Curt<g ref="char:EOLhyphen"/>rans, &amp;c.</item>
+            </list>
+            <list>
+               <head>CHAP. XI.</head>
+               <item>When to gather grapes to keep long.</item>
+               <item>How the firſt and ſecond running is called.</item>
+               <item>The manner of preſsing.</item>
+               <item>What veſſels you ought to put your wine in.</item>
+               <item>Of the beſt Cellars.</item>
+               <item>Of fermentation.</item>
+               <pb facs="tcp:53759:5"/>
+               <item>How to keep wine from decaying.</item>
+               <item>How to help the wine that reboileth.</item>
+               <item>When the wine fermenteth.</item>
+               <item>Thereaſon why wine reboileth.</item>
+               <item>How to purge wine quickly.</item>
+               <item>How to make wine brisk or quick.</item>
+               <item>How to make wine more pleaſant.</item>
+               <item>The beſt way to help our Engliſh wines.</item>
+               <item>To help your ſharp wine another way.</item>
+            </list>
+            <list>
+               <head>CHAP. XII.</head>
+               <item>Of weeding your Vineyards.</item>
+               <item>Vineyard grapes the beſt.</item>
+               <item>Air a great help to the Vine, as alſo to all other trees.</item>
+               <item>How the <hi>Germans</hi> preſerve their Vines in the winter.</item>
+               <item>When to cut away the ſmall roots of the Vines.</item>
+            </list>
+            <list>
+               <head>CHAP. XIII.</head>
+               <item>Of proining.</item>
+               <item>Of laying open the roots.</item>
+               <item>Of ſeveral things to be uſed to prevent the bleedig Vines</item>
+            </list>
+            <list>
+               <head>CHAP. XIV.</head>
+               <item>How to have grapes to grow long upon the Vines.</item>
+               <item>How to have them grow long on the Vines another way.</item>
+               <item>How to preſerve bunches of grapes long.</item>
+               <item>Another way to preſerve bunches of Grapes.</item>
+               <item>How to keep Claret wine, or any wine good <hi>9.</hi> or <hi>10.</hi> years.</item>
+               <item>How to ſeparate water from wine.</item>
+               <item>How to make ſpirit of wine.</item>
+               <item>How to make good Vinegar.</item>
+               <item>How to make Vinegar with your corrnpted wine.</item>
+               <item>How to make Verjuice of Grapes.</item>
+            </list>
+         </div>
+      </front>
+      <body>
+         <div type="herbal">
+            <pb n="1" facs="tcp:53759:5"/>
+            <head>THE Compleat Vineyard.</head>
+            <div n="1" type="chapter">
+               <head>CHAP. I.</head>
+               <p>
+                  <note place="margin">The excellency of the Vine.</note>AMong all Trees and Plants the Vine by good right challengeth the Sovereignty, ſeeing there is no Plant uſed in Husbandry more fruitfull, and more commodious, then it; not only for the beautifulneſs and goodlineſs of the Fruit; but alſo for the eaſineſs he hath in growing, whereby he refuſeth not almoſt any kind of Countrey in the whole world, <note place="margin">Extream hot or Extream cold not good for the Vine.</note>except ſuch as are ſo extreamly ſcorched with the burning heat of the Sun, or elſe too extreamly frozen with vehement cold; proſpering alſo as well in the plain and Champion Countrey, as it doth upon the Mountain and hilly Countrey; likewiſe as well in the ſtiff and fat ground, as in the ſoft and mellow ground; and oftentimes in the leany and lean ground, as in the fat and foggy; and in the dry as in the moyſt and myrie; yea and in many places in the very Rocks, and gravily ground, it groweth moſt abundantly, and moſt fruitfully; but this is for the moſt part in other Countries, as in <hi>Germany, France, Spain;</hi> &amp;c. <note place="margin">How to bring Vine Plants from beyond Sea.</note>for here we are more choice in the election of our Soil; yet the Plants being brought over, of what ſort you pleaſe, (if you cannot have them in <hi>England</hi>) and with uſe made familiar with our Climate and ground, I know they would proſper in many ſorts of this ſoil. The way we uſed to bring our Plants out of <hi>Germany,</hi> was this; At Proining
+<pb n="2" facs="tcp:53759:6"/>time we cut out as many Plants as we ſw good, or that we thought we ſhould have need of, and filled large and deep Baskets or Tubbs with good earth, and ſo we pat or ſet in the ſaid Plants, almoſt to the head or toppe; and bringing them thus over, we order'd them as you are taught in <hi>March,</hi> by which means we were furniſhed with divers ſorts or kinds of excellent Grapes, which are proſperous to this day; for of thouſand of Plants that I have ſeen ordered and planted, as hereafter is ſhewn, there hath ſcarce any miſt growing; <note place="margin">Vine to bear the firſt year.</note>yea, I have known ſome bear the firſt year, and others the ſecond or third years after they have been planted, whereof we have had Wines.</p>
+               <p>
+                  <note place="margin">Whether the Vine were known before the flood.</note>Whether the Vine were known, or at leaſt in requeſt, be<g ref="char:EOLhyphen"/>fore the Flood, I know not; but the firſt Planter of it after the Flood, according to the general opinion, or that I read of, was <hi>Noah,</hi> and with good reaſon indeed; <note place="margin">Vineyard more gainful then o<g ref="char:EOLhyphen"/>ther Husban<g ref="char:EOLhyphen"/>dry.</note>for <hi>Seneca, Cato, Varro, Collumella,</hi> &amp;c. do affirm the Planting of Vine<g ref="char:EOLhyphen"/>yards have been more gainful then any other Art of Huſ<g ref="char:EOLhyphen"/>bandry whatſoever.</p>
+               <p>
+                  <note place="margin">The divers dreſ<g ref="char:EOLunhyphen"/>ſings of Vines.</note>Theſe Vines are alſo very diverſly dreſſed, according to the faſhion of each Countrey; for they are Dreſſed other<g ref="char:EOLhyphen"/>wiſe in <hi>Spain</hi> then in <hi>Italy,</hi> neither do they Dreſs them ſo in <hi>France</hi> as in <hi>Germany;</hi> but every Country uſing his ſeveral manner, as is beſt known to them.</p>
+               <p>Alſo there are different ways in Planting or ſupporting; for as <hi>Pliny</hi> and <hi>Collumella</hi> teacheth, the Vine may be Plant<g ref="char:EOLhyphen"/>ed five ſeveral ways; as ſome are ſuffered to run upon the ground; or without a ſtay grow upright; or upon an Ar<g ref="char:EOLhyphen"/>bour, ſerving to ſit under; by a houſe, or Wall ſide; but properly in a Vineyard they have a Stay or Prop ſet for them, and they climbe up by it, or run up by a courſe of ſtiff props, or ſuſtained with four, as you ſee good.</p>
+               <p>
+                  <note place="margin">What tree is good, and what is hurtful to the Vine.</note>Some will not have them to be ſuſtained by either Nut<g ref="char:EOLhyphen"/>tree, or Bay-tree, <hi>&amp;c.</hi> for that by their Antipathy they ſpoil the Vine, but will have them either ſupported or ſuſtained by Elme, Willow, Aſh, Poplar, Figge, Olive, <hi>&amp;c.</hi> which by their Simpathy do rather cheriſh the Vine then hurt it.</p>
+               <p>Alſo ſome will have the body of the Vine to grow not
+<pb n="3" facs="tcp:53759:6"/>
+                  <note place="margin">The height of the Vineyard Vines.</note>above 5, 6, or 7. foot high at the moſt; ſome nor above 3, or 4. foot; others will have all cut away to one Stock or Twigg; and that cut within two Joints of the ground.</p>
+               <p>As in this, ſo they differ much in the cutting out of their Plants, and after in the planting of them, or the faſhion of placing of them in the ground.</p>
+               <p>
+                  <note place="margin">Of the grafting of Vineyard.</note>Some held heretofore Grafting of Vines a good way, for the which the beſt time (ſay they) is a warm weather, when the winter is paſt, and when the Bud and Rind is naturally moved, and it ſafe from cold, the which might annoy both the Stock and Graff; for which purpoſe you muſt chuſe a warm day, and no wind, or as little as may be, ſhould be ſtirring; the Graff muſt be round and ſound, not full of Pith, but of Buds, and of thick Joints the tenant whereof muſt not exceed three inches, and ſmall and even cut; the Stock and Cleft muſt be well cloſed with Clay and Moſs,</p>
+               <p>The Poets obſerved or took notice heretofore of this man<g ref="char:EOLhyphen"/>ner of operation according to this Verſe,
+<q>
+                     <l>It is receiv'd that Seed of Grapes being ſown,</l>
+                     <l>Bring forth degenerate Cluſters, or elſe none:</l>
+                     <l>But Stocks being grafted prove a faithful Vine,</l>
+                     <l>Whoſe pleaſing Berries yield a generous Wine.</l>
+                  </q>
+               </p>
+               <p>There are alſo great variety of opinions concerning the Digging and Dunging, for ſome would have them to be dugge every Moneth, ſome but three times in a year, and that between the Tenth of <hi>October</hi> and the Tenth of <hi>March, &amp;c.</hi>
+                  <note place="margin">Weeding</note> As for their opinion in Weeding them, I ſhall very well approve of, which is, if it be found needful, to Weed them every Moneth, which ſome do with a Hoone, but it is better to pluck them up by the Root, for thereby they do ſomewhat hollow the ground, neither are they ſo apt to grow again.</p>
+               <p>
+                  <note place="margin">The beſt times to gather grapes</note>And ſome there be ſo nice and curious, as to obſerve  and take notice in what Signe or Degree the Moon is in when they gather their Grapes, and ſay, that the beſt time to ga<g ref="char:EOLhyphen"/>ther them, is the Moon being in <hi>Cancer, Leo, Scorpio, Capri<g ref="char:EOLhyphen"/>corn,</hi>
+                  <pb n="4" facs="tcp:53759:7"/>&amp;c. But paſſing by all controverſies and varie<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ies of o<g ref="char:EOLhyphen"/>pinions, and large diſcourſes, which many have written (which if you pleaſe) you may read at large in their ſeveral books of Husbandry now extant, as being for the moſt part taken from authors who have written and approved the ſame in other Countries.</p>
+            </div>
+            <div n="2" type="chapter">
+               <head>CHAP. II</head>
+               <p>VVE will now come to ſet down, a plain, eaſie, new, yea, and the beſt and ſureſt way, that I could ever ſee or hear of, for the planting and bringing up of vines; and experienced here in <hi>England</hi> for many years laſt paſt.</p>
+               <p>
+                  <note place="margin">The ſituation of the vineyards.</note>And in the firſt place give me leave (as nigh as I can) to deſcribe unto you the ſituation of our ground, or what kind or ſort of ground it was, the manner of fencing, and alſo how it ought to be ordered, and dunged before it be planted, and in what faſhion it ſhould be laid in.</p>
+               <p>Firſt, then for the ſituation it was on the ſide of a hill, which lieth towards the South or South-eaſt-part.</p>
+               <p>Secondly; as for the ſort of ground, it was a ſort of red earth, which is commonly called <hi>Marle,</hi> a little inter<g ref="char:EOLhyphen"/>mingled with ſand; the other part was ſandy, and gravilly ground.</p>
+               <p>
+                  <note place="margin">The manner of Fencing.</note>Thirdly, it was fenced with a wall, (which may alſo be done with a bank, or pale cloſe Jointed) to keep of as much as might be, the North, North-eaſt, and North-weſt-winds, and withall not hindring the force of the Sun, but by the re<g ref="char:EOLhyphen"/>flection to further as much as may be.</p>
+               <p>
+                  <note place="margin">How it ought to be laid before it be Planted.</note>Fourthly, clearing the place of buſhes or any other rub<g ref="char:EOLhyphen"/>bidge which might otherwiſe be noxious, let it be made even or level, either by bringing in of earth, or by abating one place to raiſe another, ſo that it may lie ſlooping down al<g ref="char:EOLhyphen"/>moſt as the flat ſide of a houſe; and being thus laid, dung it with good rotten dung, as Oxe or Cow-dung, or Hoggs-dung, and if your dung be mingled with Sheeps-dung for
+<pb n="5" facs="tcp:53759:7"/>
+                  <note place="margin">Dunging good, and when.</note>ſandy ground, ſo much the better; alſo if your ground be more cold, pigeons dung is excellent, and other dung may be uſed, as you ſee good; which being dung'd we digg a good depth to turn in the dung, about <hi>October, November,</hi> or <hi>De<g ref="char:EOLhyphen"/>cemb.</hi> that it may lie all or moſt part of the winter, that ſo the turffe (if any be) and the dung may be rot together; then when the ſpring draweth nigh you ought to lay on it a little more good dung (being well rotted) or rank earth if you think your ground be not ranke enough before; and ſo digg it again, which being this dugg and laid even, or rather as it were, in little berries according to the French faſhion, as we ſhall hereafter more at large declare (but ſlooping as I ſaid) plant it as is ſhewn in <hi>March.</hi>
+               </p>
+            </div>
+            <div n="3" type="chapter">
+               <head>CHAP, III <hi>January.</hi>
+               </head>
+               <p>
+                  <note place="margin">The Vine a tree of the Sun.</note>THe Vine is a moſt excellent tree of the Sun, which to ſet down the ſeveral names, and kinds, according to each Country, and according to every quality, would be a thing beyond my reach to perform: beſides it would be here alto<g ref="char:EOLhyphen"/>gether needleſs, therefore we ſhall not trouble you with long tautologies, but come to our diſcourſe intended.</p>
+               <p>
+                  <note place="margin">Proining of Vines, and the time when.</note>Firſt, then you may in this month proine your vines; but obſerve that the ſureſt and beſt way is to ſtay till the begin<g ref="char:EOLhyphen"/>ning of the next month, and then proine them as I ſhall there declare; the firſt quarter of the moon and the laſt is held the beſt time to cut or proine in, and by the way obſerve, that if you proine the firſt year after they be planted, it muſt be done with great care, therefore in my opinion it is better to break off ſome of the leaves and branches and let them alone (which is moſt uſual) till the ſecond or third year, and then warily proine them.</p>
+               <p>
+                  <note place="margin">Beſt not to proin till the ſecond or third year.</note>(I ſay) proine your vines in this month, if the time be in<g ref="char:EOLhyphen"/>clining to be ſeaſonable, <hi>(viz.)</hi> not to much cold winds and black-froſts; for it is obſerved that the earlier in the year a
+<pb n="6" facs="tcp:53759:8"/>Vine is provided, the earlier in the ſpring it beginneth to budd; but afterwards many times comes (as I ſaid) cold winds and froſts and nips the buds, and ſo ſpoileth the fruit.</p>
+               <p>
+                  <note place="margin">When to lay open the Roots.</note>In this month you may alſo dig away the mould or earth (which ſome do three times a year) from the root of your vine-trees, that have born fruit, and ſo mingle it with good rotten dung and lay it too again</p>
+               <p>
+                  <note place="margin">What Dung is beſt for your Vines.</note>Pigeons dung is excellent mingled with other dung for the ſame purpoſe, alſo it is ſaid that Oxe bloud, or Horſe blood, or I ſuppoſe the blood of any other beaſt tempred with Pige<g ref="char:EOLhyphen"/>ons dung, is moſt excellent to lay to the principal root of any vine (the root of the Vine having taken aier a few daies by laying it bare) for ſome ſay it will make a decaying tree or Vine, to bring forth fruit and bloſſomes freſh; alſo the bloud of beaſts tempred with ſome lime (for without lime the bloud ingendreth great ſtore of wormes) is ſaid to be excel<g ref="char:EOLhyphen"/>lent to be laid on the roots of vines, both to make them bear, and alſo to haſten the ripening of the grapes.</p>
+               <p>
+                  <note place="margin">To haſten the Ripining of the Grapes.</note>This is beſt to be applyed to make them bear in <hi>February,</hi> or <hi>March,</hi> but to haſten the ripening of the grapes apply it in <hi>July,</hi> or <hi>Auguſt,</hi> and alſo any piſs, or urine put to the root, eſpecially in ſome ſort of ground is excellent,</p>
+            </div>
+            <div n="4" type="chapter">
+               <head>CHAP. IIII. <hi>February.</hi>
+               </head>
+               <div n="pruning" type="part">
+                  <head>The proining of Vines.</head>
+                  <p>
+                     <note place="margin">The Proining of Vines.</note>THe ſureſt and ſafeſt way is, not to proine your vines till this month, for then the ſpring draweth nigh, and the cold winds, and black froſts are almoſt paſt, which other<g ref="char:EOLhyphen"/>wiſe might nip the bud, and ſpoile the fruit, as aforeſaid.</p>
+               </div>
+               <div n="cautions" type="part">
+                  <head>Cautions in proining.</head>
+                  <p>Firſt note, that if you can let the wind be the South, or
+<pb n="7" facs="tcp:53759:8"/>
+                     <note place="margin">Cautions in proining.</note>South-weſt, for commonly then it bloweth ſomewhat warm, and if you cut them ſo that the ſlope place which you cut be to the ſouth, ſo much the better, but in this you need not be very cautious.</p>
+                  <p>Further note, that when you proine your Vines that you do not cut the little ſprouts that ſhoot, or ſpring out at eve<g ref="char:EOLhyphen"/>ry knot, or joynt, too nigh; but about a ſtraws breadth from the body or ſprigg.</p>
+                  <p>Note alſo, that you cut off the great ſpriggs, that come from the body of the Tree, namely the tops, between the two joynts, ſomewhat nigher to the lower Joynt then to the uppermoſt.</p>
+                  <p>In this time of proining, you may obſerve to cut off ſome old branches that you ſee begin to decay, pretty nigh to the body of the tree, &amp; let a young one grow up in the room of it.</p>
+                  <p>
+                     <note place="margin">How to chuſe your young Plants.</note>Leave not too many branches upon the body of the Tree, for if you ſo do, unleſs your ground be very well Manur'd &amp; ordered, it will not bring forth, but (may be) grow wild; but if it do bring forth it will not bring them to perfection, but commonly half of the berries of each branch will be ſmall and never come to be ripe.</p>
+                  <p>As for the chuſing, cutting out, or gathering of your plants obſerve this, that you chuſe them, ſo that the butt end may have ſome of the old ſtock in it (for ſome are of opinion that a Vine will bear the ſooner at leaſt for leaving ſome of the old ſtock on it; this I know, that they will take root better and come to be a Tree the ſooner) and that they be of a rea<g ref="char:EOLhyphen"/>ſonable bigneſs towards the lower or butt-end, let them be ſomewhat leſs or about the bigneſs of the fore-part of your little finger, and about a cubit or neer two foot in length, and cut in the middle of the Joynt at the lower end (which is not to be done till you ſet them in the ground) and at the upper end between the two Joynts.</p>
+                  <p>
+                     <note place="margin">The time when to gather your young plants.</note>The time to gather your plants is, in what Month or time ſoever you find fit to proine your Vines; note that you cut them where they may be beſt ſpared.</p>
+                  <p>So having gathered ſo many plants as you think you ſhall need to uſe, lay the butt-ends in the mould, or earth, any
+<pb n="8" facs="tcp:53759:9"/>where in the Garden or Vineyard, to keep them moiſt, and ſo let them lie till a little before <hi>Eaſter</hi> or the month of <hi>March,</hi> (but the <hi>French</hi> do plant them in a Vineyard or in a nurſery aſſoon as they have cut them, and ſome <hi>Engliſh</hi> following their faſhion do the like) as the ſeaſon of the year and diſcre<g ref="char:EOLhyphen"/>tion ſhall beſt inſtruct, at which time (they being cut even at the butt-ends) bind them up in bundles and ſet them in the ground, as I ſhall declare in March.</p>
+                  <p>Alſo in this month you may if you have time, or by reaſon of neglect before, digg away the mould from the root of your Vines, and ſo mingle it with ſome good rotten-dung, and lay it too again as I ſaid before in <hi>January.</hi>
+                  </p>
+               </div>
+            </div>
+            <div n="5" type="chapter">
+               <head>CHAP. V. <hi>March.</hi>
+               </head>
+               <p>
+                  <note place="margin">Of proining.</note>IN caſe of neceſſity, or that you have neglected, you may in this month proine your Vines, ſo it be before the tenth day, for then the ſap beginneth to aſcend<g ref="char:punc">▪</g>
+               </p>
+               <div n="planting" type="part">
+                  <head>How to make up your plants to put into the earth, to plant in <hi>May</hi> or <hi>June.</hi>
+                  </head>
+                  <p>
+                     <note place="margin">To make up your Plants to plant in <hi>May</hi> or <hi>June</hi>
+                     </note>Having choſen and cut out as many plants as you think you ſhall have occaſion to uſe (as before) and having cut the butt-ends ſmooth and even in the middle of the Joint, as it were between the new and the old part (for they ſhould be but one years growth) but rather leaving ſome of the old on, lay the ſaid butt-ends of all your plants even together, and bind them with two withs or twigs, or ſuch like things, pretty hard in a bundle, or bundles; and ſo dig a hole in the earth in ſome warm place, as deep or deeper then the length of the ſaid plants and ſo put them into the hole; the top downwards and then fill up the hole again; till it be within a hands breadth of the top of the butts (the butts being up<g ref="char:EOLhyphen"/>wards) then take ſome Field-moſs and lay over and about the
+<pb n="9" facs="tcp:53759:9"/>butts, and then the hole being fild even, lay ſome ſand and earth mingled together upon the Moſs, about a fingers length in thickneſſe; and ſo let them there remain till <hi>May,</hi> or <hi>June,</hi> and as for the time to take them up, obſerve what is ſaid in thoſe Months.</p>
+                  <p>
+                     <note place="margin">When to water your yong plants</note>But if the time or ſeaſon be very dry, ſo that you think they are dry, or want moiſtning, Water them a little (not ſo much as to ſtarve them) two or three times as you ſhall think need requires, pouring the water on the ſand that it may ſoke in by degrees.</p>
+                  <p>
+                     <note place="margin">How the roots of Plants ought to be left.</note>Now the reaſon why they be thus planted, is, that the Moſs by the exhalation of the Sun keepeth them moiſt, it being ſpungeous and imbibes the water, and the ſand and earth by the reflection of the Sun beams or rayes keepeth them warm, ſo that they ſhoot out the earlier, by which means at the time of your replanting, you ſhall find a root (although young and tender) ready grown; of which you muſt be very careful, and leave but two or three of the principal branches or ſprouts for the root of each plant.</p>
+                  <p>The manner of ſetting theſe plants is the ſame with thoſe that have been planted a year or two, and are to be removed as I will here next declare.</p>
+               </div>
+               <div n="replanting" type="part">
+                  <head>How to replant thoſe plants that have been planted, one, two, or three yeares.</head>
+                  <p>
+                     <note place="margin">How to replant young plants.</note>Suppoſe you have ſome plants that have been planted in a nurſery, or elſewhere, a year, two, or three, and that you would replant them, you may in this moneth take them up and remove them, having your ground ready dug and in good order as aforeſaid:  and having alſo ready ſome good rotten dung, and good rank earth, or mould mixed together, or very good earth onely to put to the roots, and then ſet them half a foot or more into the ground long wayes, leaving the very top onely out; for your plant is cut commonly with a<g ref="char:EOLhyphen"/>bout three or four of the principal roots left; the reſt muſt as ſuperfluous be cut off, and ſo cloſe up the mould or earth cloſe about them.</p>
+                  <pb n="10" facs="tcp:53759:10"/>
+                  <p>
+                     <note place="margin">When the beſt time to plant.</note>The laſt quarter of the Moon, and the firſt is by the Ger<g ref="char:EOLhyphen"/>mans obſerved to be the beſt time to plant or remove in, if the weather be good and ſeaſonable, as I have before noted.</p>
+                  <p>
+                     <note place="margin">At what di<g ref="char:EOLhyphen"/>ſtance your yong plants ſhould be ſet.</note>Alſo here you may take notice that theſe plants (as alſo the young ones) ought to be ſet a yard, or very nigh a yard di<g ref="char:EOLhyphen"/>ſtance, ſquarely each from other, that you may have a conve<g ref="char:EOLhyphen"/>nient paſſage between the rowes if it be in a vineyard, not onely to mould, dung and weed them almoſt as you do your hops, but alſo to proin, to break off the ſuperfluous leaves and branches, and to gather the grapes when they be ripe, and ſuch other conveniences as are required: I ſhall make it more plain by an example or two.</p>
+               </div>
+               <div type="example">
+                  <head>Example.</head>
+                  <p>If you have a piece of ground prepared as we have before ſhown, and that you would have it planted after the German manner, or as ſome now uſe in <hi>England;</hi> you may ſuppoſe at each of theſe prlcks to be ſet a Plant a yard diſtance each from other ſquarely.</p>
+                  <figure>
+                     <figDesc>planting out scheme</figDesc>
+                  </figure>
+                  <p>And ſet in the ground ſlope-wayes along the row, with the tops up the hill; and ſo have you room to paſs between them which way you pleaſe; neither do they incumber the ground ſo much, but that it may bear them.</p>
+                  <p>
+                     <note place="margin">The French way of planting.</note>The French manner of planting as it was learnt of them, and is now uſed in ſome places of <hi>England,</hi> is this:</p>
+               </div>
+               <div type="example">
+                  <head>Example.</head>
+                  <p>They having prepared their ground ready as is before ſhown <hi>(viz.)</hi> laid ſloping, they lay about two foot even, and then about a yard they riſe ſomewhat higher, and then even, and then rais'd in a kinde of a little berry, or bury, as it were,
+<pb n="11" facs="tcp:53759:10"/>and ſo they do, all through the piece of ground they intend to plant, as thus: ſuppoſe a Plant <hi>or</hi> Vine at each of theſe pricks.</p>
+                  <figure>
+                     <figDesc>planting out scheme</figDesc>
+                     <p>the loweſt ground.</p>
+                     <p>the higheſt ground.</p>
+                  </figure>
+                  <figure>
+                     <figDesc>planting out diagram</figDesc>
+                     <p>the higheſt and broad<g ref="char:EOLhyphen"/>eſt part. </p>
+                     <p>the loweſt part be<g ref="char:EOLhyphen"/>ing plain.</p>
+                  </figure>
+                  <pb n="12" facs="tcp:53759:11"/>
+                  <p>
+                     <note place="margin">Note.</note>Here note, that you do not let your Plants grow high too quickly, but every year by degrees, as the Stock or Body of your Tree increaſeth in bigneſs and ſubſtance.</p>
+                  <p>If they be thus thick planted, one ſtock is enough to grow up from each plant or root.</p>
+                  <p>But if they are planted after the Dutch way, you may ſometimes let two or three grow up.</p>
+               </div>
+            </div>
+            <div n="6" type="chapter">
+               <head>CHAP. VI. <hi>April.</hi>
+               </head>
+               <p>THere is little to be done in this Moneth, unleſs it be ſo that you could not, or by any neglect you have not or<g ref="char:EOLhyphen"/>dered them in the fore-going Moneths, as is there ſet down; in ſuch caſe you may both dung and plant as is before ex<g ref="char:EOLhyphen"/>preſt.</p>
+               <p>Alſo you may weed in this Moneth, and ſuch other operations as you ſhall find neceſſary.</p>
+            </div>
+            <div n="7" type="chapter">
+               <head>CHAP. VII. <hi>May.</hi>
+               </head>
+               <div n="thinning out" type="part">
+                  <head>Of the taking up of your young Plants.</head>
+                  <p>
+                     <note place="margin">When to take up your young plants:</note>IF the Spring be very forwardly, and the weather good and ſeaſonable, you may take up your Plants which were ſet in the ground in bundles in or about <hi>March,</hi> and plant them according as I have ſaid in that Moneth of the other Plants; but if the Spring be not forwardly and the ſeaſon very good, it is beſt to let them alone till <hi>June;</hi> 
+                     <note place="margin">Note</note>the beſt way to know when they be ready, is, to obſerve the Vine leaves, as thus, when they are pretty broad and ſome of them begin to look of a graſs green colour, then is in nigh ready to take them up, for then have they a little ſhot forth as you will find.</p>
+                  <pb n="13" facs="tcp:53759:11"/>
+                  <p>
+                     <note place="margin">The French faſhion.</note>The French they cut out their Plants when they proine, and preſently plant them where they intend they ſhall grow, or elſe in ſome Nurſery to remove afterward.</p>
+               </div>
+               <div type="observation">
+                  <head>Obſerve</head>
+                  <p>
+                     <note place="margin">The time when it is good to break off ſuper<g ref="char:EOLhyphen"/>fluous branches</note>That if your Vines be forwardly, you may towards the latter end of this Moneth break off ſome of the leaves where they grow too thick, and ſome of the long branches or tops (that ſmall part I mean which is above or beyond the bunch) where they grow too thick, or two or three together, as your reaſon may beſt inſtruct you; and have a care in breaking, that you break not off the young bunches with them;<note place="margin">Note.</note> you may alſo break off the young ſprings that ſpring up from the root of the Tree if there come up more then you would wil<g ref="char:EOLhyphen"/>lingly have to grow, obſerving to leave ſo many young ones to grow up to ſupply where is wanting; <note place="margin">How your Vines are ſupported and tyed.</note>and as they grow in length tie them up with Ruſhes, Saggs, ſmall Withs, or ſuch like things; or elſe nail them up with leathers, if it be by a Wall or Houſe; but in a Vineyard they are ſupported by ſticks fit for the ſame purpoſe, as before.</p>
+                  <p>If the weather prove very hot in this Moneth, after you have planted your young Plants you muſt water them a little only to keep them moiſt, not ſo much to keep them very cold, for then they will not grow ſo well, nor ſo faſt. Now the reaſon why it is neceſſary to break off leaves and bran<g ref="char:EOLhyphen"/>ches at ſuch times, is, becauſe when ſuch ſuperfluous bran<g ref="char:EOLhyphen"/>ches are taken away, needs muſt the Tree have the more force and nouriſhment for that which is left.</p>
+               </div>
+            </div>
+            <div n="8" type="chapter">
+               <head>CHAP. VIII. <hi>June.</hi>
+               </head>
+               <p>
+                  <note place="margin">When to take your young plants.</note>HEre is further to be noted, that if the Spring be back<g ref="char:EOLhyphen"/>wardly, you ought not to take up your young Plants; namely, the bundle or bundles which you put in the ground
+<pb n="14" facs="tcp:53759:12"/>in <hi>March</hi> untill this Moneth, as you may obſerve by the Vine leaves; ſo your ground being prepared and made ready, plant them as I have before ſet down.</p>
+               <p>
+                  <note place="margin">How to defend the root of the tree from much heat or wet.</note>And if the parching heat of the Sun do offend the root of the Vine, or dry the ground too faſt, you may prevent it with the help of boards, ſtones, &amp;c. ſetting or laying them at the root of the Tree.</p>
+               <p>And if by much rain in Winter, the wet offend the ſaid Vines, you may prevent that alſo with the uſe of boards, &amp;c.</p>
+               <p>Alſo it is neceſſary if the Spring be backwardly in this Moneth, to break off ſome of the leaves and branches ac<g ref="char:EOLhyphen"/>cording as is ſaid in <hi>May.</hi>
+               </p>
+               <p>
+                  <note place="margin">When to water the young plants</note>Further obſerve that if the weather prove very hot and dry, after you have planted your young Plants, you muſt water them a little, only to keep them moiſt.</p>
+               <p>
+                  <note place="margin">The time when your Vines be<g ref="char:EOLhyphen"/>gin to flower.</note>About the tenth of this Moneth your Vines begin to flower, by which it is, by ſome obſerved a plentiful or ſcarce year of Grapes.</p>
+            </div>
+            <div n="9" type="chapter">
+               <head>CHAP. IX. <hi>July.</hi>
+               </head>
+               <p>
+                  <note place="margin">Grapes how they ripen beſt.</note>IN the latter end of this Moneth, it is very neceſſary that we take notice where the leaves, or long ſhouts, or bran<g ref="char:EOLhyphen"/>ches, grow too thick, and break them off; but ſee that you do not break them off ſo, that all the bunch will be expoſed to the Sun, nor to leave it ſo, if you can help it, that it will be always in the ſhade; but that it may be a little ſhaded and ſometimes in the Sun and ſo will they ripen the more kindly.</p>
+            </div>
+            <div n="10" type="chapter">
+               <pb n="15" facs="tcp:53759:12"/>
+               <head>CHAP. X. <hi>Auguſt.</hi>
+               </head>
+               <p>IN this Moneth you may alſo break off ſome of the leaves, according as is ſaid in <hi>July;</hi> and if the Summer be wet ſo that the rain maketh the Grapes ſwell, you muſt break off the leaves that the Sun may come at them the better.</p>
+               <p>
+                  <note place="margin">Obſervations in gathering.</note>When you gather your Grapes do not ſlive them off, but cut them at the next joint to the ſprig they grow.</p>
+               <p>
+                  <note place="margin">How to preſerve the bunches till they are ripe.</note>I might here add many artificial wayes to preſerve the bunches either on, or off the Trees to laſt long, and to pre<g ref="char:EOLhyphen"/>ſerve them from the froſt, or wet, till ſuch time as they are fully ripe.</p>
+               <p>As thoſe that have but a few, tie ſome of the beſt bunches in Glaſſes, others ſet up boards over them ſlope wayes to ſhoot off the rain if too much wet offend them, and many other artificial wayes are uſed to preſerve them as may be beſt added by the operators in this emploiment, onely ſome few receipts worth the noting I ſhall hereafter ſet down.</p>
+               <p>
+                  <note place="margin">How to know when they are ripe.</note>You may know when they be ripe, thus; if the ſtones be<g ref="char:EOLhyphen"/>gin to look black, or if with cruſhing the Grape the Stone ſlip out ſmooth, or elſe onely by the clearneſs of the Berry, but eſpecially by the taſte.</p>
+               <p>
+                  <note place="margin">The faſhion of your Vine pre<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                     <g ref="char:EOLunhyphen"/>ſes</note>And here I think it not impertinent to ſet down the faſhi<g ref="char:EOLhyphen"/>on of a Wine-preſs, the manner of bruiſing and preſſing of your Grapes, and ſuch other circumſtances neceſſary there<g ref="char:EOLhyphen"/>unto.</p>
+               <p>
+                  <note place="margin">How to bruiſe your Grapes beſt way.</note>The Germans have an extraordinary great weight with devices, as ſcrues, and the like, to lift it, and ſo to let down to preſs the Grapes; but we ſhall deſcribe here another and better manner of preſſing.</p>
+               <p>Firſt, then for bruiſing your Grapes you may have made two rowles of good ſound wood; each of which may be about a yard round, and about a yard, or an ell in length; to each of which you muſt put a turnleſs, in the form of a turnleſs for a grinding ſtone, and then place theſe two rowls
+<pb n="16" facs="tcp:53759:13"/>
+                  <note place="margin">Of divers things that be<g ref="char:EOLhyphen"/>long to bruiſing</note>together about breaſt high (they having gudgeons, or things of iron in each end to turn upon) in ſome pieces of wood to put athwart to turn upon, in what room or houſe you pleaſe to have it in; and continue it ſo, that you may ſet one of the ſaid rowles wider or cloſer as you pleaſe, for the bruiſing of your big or ſmall berries, as you ſhall have occa<g ref="char:EOLhyphen"/>ſion; by the turning of theſe ſaid rowles contrary the one to the other, doth ſqueeze or cruſh the Grapes, as the Mill cruſheth the Sugar Canes, out of which runs the juyce of which the Sugar is made.</p>
+               <p>The rowles being thus ſet, hang over them ſlopewiſe to put your Grapes in a kinde of a hopper, made in the form of a large tray, at the lower end of which over the middle of the two rowles, muſt be a hole made to put them down at, as the rowles turn, and under the ſaid rowles you muſt ſet a re<g ref="char:EOLhyphen"/>ceiver to take the bruiſed Grapes and Wine.</p>
+               <p>
+                  <note place="margin">Of the b<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ſt juyce or liquor.</note>Here note that all the liquor or juyce which will run only with this bruiſing, is much the better, and is uſually kept apart from that which runs in preſſing.</p>
+               <p>
+                  <note place="margin">How to make your Claret wine</note>And here you may alſo further obſerve, that as for your white Grapes, of which is made your white Wine, you may preſs them preſently after you have bruiſed them; but as for your red Grapes, of which comes your Claret Wine, you muſt let it ſtand for the ſpace of four and twenty hours or more, or leſs, according to the high or pale colour you deſire to have your Claret look; for it is the ſtanding together af<g ref="char:EOLhyphen"/>ter they are bruiſed, which cauſeth the skins of the Grapes to give it the colour; for ſhould you preſs it preſently (as the white) it would have very little or no colour of redneſs at all.</p>
+               <div n="wine presses" type="part">
+                  <head>The Faſhion of Preſſes.</head>
+                  <p>
+                     <note place="margin">Wine Preſſes how they are made.</note>Now as for the Preſs, ſome will have them after one man<g ref="char:EOLhyphen"/>ner, others after another; one faſhion is this; you may have made a couple of large and long ſcrues, and in what room you pleaſe to ſet your preſs, you may have them very firmly fixed, by ſome weighty pieces at the bottom and top of the
+<pb n="17" facs="tcp:53759:13"/>ſaid ſcrews ſo that they may not riſe, or ſtir with ſcrewing; upon which ſcrews you muſt have two boxes (as they are cal<g ref="char:EOLhyphen"/>led) fitted, with ends made convenient to ſcrew or force down in preſſing, in the form as Sider in ſome places is made; and between theſe two ſcrews towards the bottom you muſt have made faſt a very ſtrong and thick piece of planck, made round or ſquare, as you pleaſe; upon which muſt ſtand a ſtrong basket to hold your Grapes, being bruiſed; and round about the basket in the ſaid planck muſt be cut a natch, or channel, for the juyce or wine to run round into one ſpout, under which muſt be ſet a receiver.</p>
+                  <p>
+                     <note place="margin">Another Faſhion wine preſs.</note>Another faſhion preſs is this, (which I think is the beſt) in place of the two ſcrews aforeſaid you may have faſt fixt, that is to ſay, on each ſide two ſupporters or poſts; at the top, or pretty high athwart; between them muſt be fixed a very ſtrong box, in which muſt turn a ſtrong ſcrew in the middle, and on the lower end of the ſcrew is a croſs piece faſtned for the end of the ſcrew to turn in, as it is moved or ſcrewed commonly, with a long and weighty crow of iron by two holes made in the ſquare towards the lower end of the ſcrew croſs, for the end of the crow of Iron to go in, to force, or ſcrew it down, and the basket in which you put the Grapes to be preſt in, may be made round, and alſo the trench or channel in the planck, <hi>&amp;c.</hi>
+                  </p>
+                  <p>There are other wayes uſed beſides baskets, as wreaths of ſtraw, <hi>&amp;c.</hi> But I ſhall forbear to treat of them, for that they are more tedious and troubleſome; and for that you may this way that I have here ſet down, bruiſe and preſs an hun<g ref="char:EOLhyphen"/>dred buſhels or more in a day.</p>
+                  <p>
+                     <note place="margin">How to make other ſorts of wines.</note>This way you may alſo make Gooſeberry Wine, Rasber<g ref="char:EOLhyphen"/>ry Wine, Wine of Cherries, either black or red, or Wine of Currans, Apricock Wine, Wine of Plumbs, <hi>&amp;c.</hi> but theſe laſt muſt be ſtoned.</p>
+               </div>
+            </div>
+            <div n="11" type="chapter">
+               <pb n="18" facs="tcp:53759:14"/>
+               <head>CHAP. XI. <hi>September.</hi>
+               </head>
+               <p>IN this, and both the former, and the next Moneth is the time to gather Grapes here with us in <hi>England,</hi> wherefore (as I ſaid before) it is beſt in the gathering not to cut off your bunches cloſe to the Tree, but one joynt or knot from it.</p>
+               <p>
+                  <note place="margin">When to gather grapes to keep long.</note>Gather not your Grapes (if you mean to keep them long) till the full Moon, otherwiſe it is not obſerved</p>
+               <p>And here you may take notice that when you have ga<g ref="char:EOLhyphen"/>thered your ripe Grapes, and put them into ſome large vate or veſſel, which you ſhall find convenient for that purpoſe, according to the <hi>French, Spaniſh,</hi> or <hi>German</hi> manner; you ſhall before you come to bruſing (being many together) have a liquor expreſt from them which is called <hi>Protophum,</hi> as being the firſt that comes or drops.</p>
+               <p>
+                  <note place="margin">How the firſt and ſecond <gap reason="illegible" resp="#OXF" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap>ning is called.</note>Secondly, That which runs immediately from them being trodden or uſed, is called <hi>fortimum;</hi> the beſt part of the li<g ref="char:EOLhyphen"/>quor: But of the divers kinds of names we ſhall ſpeak in a ſecond part hereafter.</p>
+               <p>
+                  <note place="margin">The manner of pressing.</note>Thirdly, Let us come to preſſing, where note that the firſt part of each preſſing is accounted the richeſt or beſt part of the juice which comes by expreſſion, and is included under the general name <hi>Vinum;</hi> the latter running is accounted (although of the ſame ſort or kind) ſmaller or weaker.</p>
+               <p>
+                  <note place="margin">What veſſels you ought to put your wines in.</note>Your Grapes being thus preſt, and you having received your Wine together or a part, as you ſee good; let your Veſſels wherein you put the ſame be firm, new, and well bound with Iron, <note place="margin">Of the Cellar.</note>alſo let your Cellar be very deep, for the deeper the more cool is it for Summer, and the warmer for Winter, which is a great help for the keeping and perfecting of good Wine, as may be ſeen in <hi>Germany,</hi> where their Cel<g ref="char:EOLhyphen"/>lars are 18 or 20 foot deep or more.</p>
+               <p>
+                  <note place="margin">Note.</note>But by the way note, that your Wine muſt firſt have wrought, before you tun it up in ſo deep a Cellar; for un<g ref="char:EOLhyphen"/>derſtand
+<pb n="19" facs="tcp:53759:14"/>
+                  <note place="margin">Of fermentation</note>that heat cauſeth fermentation.</p>
+               <p>As for the manner of rowling and ſhifting your Wines upon the Lees, experience will beſt inſtruct you; as alſo to know the time when they are fit to be drunk.</p>
+               <p>
+                  <note place="margin">How to keep wine from decaying.</note>But if in the ſpending of your Wines, they begin to looſe their ſpirits, and as it were decay (as a great deal will, by that time that half the cask is drawn out;) to prevent it, you may at the firſt piercing draw it all out into Bottles, and ſet the ſaid Bottles afterwards in ſand (as before.) When you find it begin to grow flat never ſo little, you may dip a piece of linen cloth in melted brimſtone, and put it in at the Bung<g ref="char:EOLhyphen"/>ho le of the cask, and ſet it on fire, the linen cloth and brim<g ref="char:EOLhyphen"/>ſtone I mean, (not the cask) and let it ſo hang in the cask by ſome wyer or ſome ſuch like thing till is be burnt, keeping in the ſulpherous vapours as much as you can, and ſo ſtop it up cloſe again; this doth help decaying Wine very much, by adding ſpirits thereto, for all Wines have in them a Sul<g ref="char:EOLhyphen"/>pherous part as may be proved and ſeen in burning.</p>
+               <p>
+                  <note place="margin">To help the wine that reboileth.</note>Alſo to help your Wine that reboileth, if you put a piece of Cheeſe into the veſſel you will preſently ſee the effects; or elſe if you put a bunch of Peniroyal, or Organy, or Cala<g ref="char:EOLhyphen"/>mint, about the hole at which the Wine cometh out it help<g ref="char:EOLhyphen"/>eth.</p>
+               <p>
+                  <note place="margin">VVhen the wine fermenteth.</note>For the Wine Merchants obſerve in <hi>France,</hi> and every where elſe where there is Wine that during the ſeaſon that the Vines are in flower, the Wine which is in the Cellars makes a kind of fermentation, and puſheth forth a little white Lee upon the ſurface of the Wine, which continueth in a kind of diſorder untill the flowers of the Vines be fallen, and then this agitation or fermentation being ceaſed, all the the Wine returns to the ſame ſtate it was in before, accor<g ref="char:EOLhyphen"/>ding to the opinion of the ancients, 1300 years ago: The ſame time doth this fermentation happen that the Vines ſeem to exhale their ſpirits in the Vineyards.</p>
+               <p>
+                  <note place="margin">The reaſon why wine reboileth</note>Now thoſe Wine ſpirits that iſſue from the buds and flowers, filling the air, they are drawn into the veſſels by the connatural and attractive vertue of the Wine within; and theſe new volatile ſpirits entring, do excite the moſt fixed
+<pb n="20" facs="tcp:53759:15"/>ſpirits of the Wine, and ſo cauſe a fermentation, as if one ſhould pour therein new or ſweet Wine; for in all fermen<g ref="char:EOLhyphen"/>tations there is a ſeparation made of the Terreſtrial parts from the oily, which come out of the eſſential parts, and ſo the lighteſt mount up to the ſuperfices, the heavieſt become Tartar Lees which fall into the bottom but in this ſeaſon if one be not very careful to keep the Vine in a proper &amp; tem<g ref="char:EOLhyphen"/>perate place, and keep the ca<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>k full and well bung'd, and uſe other endeavours which are ordinary with Wine-Coopers, one runs a hazard to have his Wine impaired or quite ſpoil<g ref="char:EOLhyphen"/>ed, becauſe that the volatile ſpirits coming to evaporate themſelves, they carry away with them the ſpirits of the Wine that is barreled, by exciting them and mingling with them.</p>
+               <p>And it is not only in <hi>France</hi> and other places where Vines are near Cellars of Wine, that this fermentation happens; but in <hi>England</hi> also where we have not Vines enough as yet to make good ſtore of Wine the ſame thing is obſerved; yea and ſome particularities beyond: Although we make not very much Wine to any conſiderable proportion, yet we have wine in great aboundance, which is brought over by the Merchants as from the Canaries, from <hi>Spain,</hi> and from Gaſ<g ref="char:EOLhyphen"/>cony; now theſe Regions being under different degrees and climates in point of latitude, and conſequently one Country is hotter or colder then the other; or that ſome vegetables grew to maturity ſooner it comes to paſs that the aforeſaid fermentation of our differing Wines advanceth it ſelf more or leſs, according to the Vines whence they proceed do bud and flower in the Regions where they grow, it being con<g ref="char:EOLhyphen"/>ſentaneous to reaſon that every ſort of Wine attracts more willingly the ſpirits of thoſe Vines whence they come then any other but no more; this being only a digreſſion by the by</p>
+               <p>
+                  <note place="margin">How to purge wine quickly</note>So then if your Wine be new, and you would have it quickly purged, you muſt put half a pint of Vinegar to eve<g ref="char:EOLhyphen"/>ry fifteen quarts of Wine.</p>
+               <p>I do not write this to Vintners nor Wine-Coopers, neither do I do it to put them in mind, for that they are ready e<g ref="char:EOLhyphen"/>nough of themſelves early and late with their jumbling
+<pb n="21" facs="tcp:53759:15"/>ſlights and mixtures, which if they forbear it would be much better both for the credit of their houſes and health of their Cuſtomers.</p>
+               <p>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Objection. </seg>
+                  </label> But you may object and ſay, how then can the Wines be put off if no ſuch tricks ſhould be uſed: <label type="milestone">
+                     <seg type="milestoneunit">Resp </seg>
+                  </label>
+                  <note place="margin">To make wine brisk or quick.</note>True indeed, for if the wine be not brisk, how ſhall we make it without the ad<g ref="char:EOLhyphen"/>dition of Sugar, Vinegar, Vitriol,—&amp;c. to ſparkle or rather bubble in the Glaſs or how will the colour be altered as we pleaſe without the uſe of Red wine, and many other ingre<g ref="char:EOLhyphen"/>dients which muſt not be mentioned, fore there muſt not be pierced a freſh cask ſo often as Cuſtomers deſire <gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>o have change, yet muſt they be pleaſed if poſſible; but no more of this.</p>
+               <p>
+                  <note place="margin">To make your wine more pleaſant.</note>Let us proceed further and ſuppoſe that we have perfor<g ref="char:EOLhyphen"/>med all things neceſſary in this work, and have here the juice of the Engliſh Grape ſuch as it is, but yet it wanteth a ſuf<g ref="char:EOLhyphen"/>ficient and perfect digeſtion to bring it to maturity, or a plea<g ref="char:EOLhyphen"/>ſantneſs to pleaſe your pallat; to perform this, let us accord<g ref="char:EOLhyphen"/>ing to the <hi>Spaniſh</hi> and ſome others faſhion, boile this ſaid juice, by which boiling is evaporated the thin or aquious quality, ſo that, that which remains is more pleaſant, and it being cold, may be mixed with equal proportion of the crude Wine, or elſe proportion it according as it wil beſt pleaſure your own pallat.</p>
+               <p>
+                  <note place="margin">The beſt way to help our Engliſh wines.</note>But if we be forced to uſe outward helps in default of our Soile or Climate, in my opinion this is the beſt; as to every gallon of our <hi>Engliſh</hi> Wine, ſuch as it is, add <hi>one</hi> pound of Raiſins of the Sun, or <hi>Maligo</hi> Raiſins, being firſt waſhed in ſeveral waters; or for other ſort, chuſe the beſt Currans you can get, being wel cured, and waſhed and pickt, and uſe the ſame proportion as before, to each gallon of red Wine; leave them in this imbibition until the Liquor have extracted the tincture and ſtrength of the fruit; then draw the Wine from the fruit, and let it ſtand until they have wrought themſelves into <hi>one</hi> body, at which time they wil become a moſt pleaſant Wine, reſembling divers kinds, either to be drunk alone, or ſerving to taſt any other Wine, according to the proportion of the fruit that is infuſed.</p>
+               <pb n="22" facs="tcp:53759:16"/>
+               <p>
+                  <note place="margin">To help your ſharp wine another way.</note>I wil here add one obſervation more. Suppoſe you have a piece of Wine which naturally is <hi>too ſharp</hi> for your drinking, you may draw it out into bottles, and in each bottle put a ſpoonful or two of refined Sugar, and ſo ſet them in ſand in a Cellar, and let them ſtand a conſiderable time before you drink it, and you wil find it pleaſant and good Wine.</p>
+               <p>Here I might add more ways for the help of our <hi>Engliſh</hi> Wines, but that it would be impertinent; for, <hi>Verbum Sapi<g ref="char:EOLhyphen"/>enti ſufficit<g ref="char:punc">▪</g>
+                  </hi>
+               </p>
+            </div>
+            <div n="12" type="chapter">
+               <head>CHAP. XII. <hi>October.</hi>
+               </head>
+               <p>MOſt commonly the year is ſo favourable, that the lat<g ref="char:EOLhyphen"/>ter part of your Grapes or Vintage is not gathered til this Month; for the gathering of which, chuſe a dry day, and gather none but thoſe which are ripe, if they be for Wine, leſt being not ripe, they ſpoil all; the reſt, if they wil not come to be ripe at all, yet may you uſe other ways and means with them, ſo that they may be very uſeful for Vine<g ref="char:EOLhyphen"/>gar, or the like.</p>
+               <p>
+                  <note place="margin">Of weeding.</note>Alſo in this Month you muſt weed, either by heaving, dig<g ref="char:EOLhyphen"/>ing, or pulling up the weeds, for they commonly grow very faſt about this time of the year.</p>
+               <p>
+                  <note place="margin">Vineyard grapes the beſt.</note>
+                  <hi>Note, that your grapes</hi> come to be far better, and more riper in a <hi>Vine-yard,</hi> than upon any houſe or wall: partly becauſe they grow ſo nigh the ground; <note place="margin">Air a great helper of the grapes.</note>and partly becauſe the Sun hath more liberty to go about them, and alſo the air, which is a very great advantage to them, as experience (the beſt Judge) teacheth, as you may by an example prove; for if you have by the glaſier made a caſe (as it were) either round or ſquare, but long, according to the height of <hi>one</hi> of your Vine-yard Vines, into which glaſs (being <hi>cloſe</hi>) made up but <hi>onely</hi> on <hi>one</hi> end; put the ſaid Vine (I mean any one of your Vineyard Vines) ſo that the air come not to it: let it be put in when the Grapes are but half ripe, or when the berries
+<pb n="23" facs="tcp:53759:16"/>be very ſmall, and look what bigneſs the berries are when you ſet over your glaſs, of that bigneſs ſhall they be (for want of air) when you take off the glaſs again, although they wil grow ſweet by the heat of the Sun; but if you let it ſtand till the other are full ripe, yet will not they be bigger, as I have ſeen tried.</p>
+               <div n="November" type="part">
+                  <head>November.</head>
+                  <p>
+                     <note place="margin">How the Ger<g ref="char:EOLhyphen"/>mans preſerve the Vine in the Winter.</note>In this Moneth there is little to be done here in <hi>England,</hi> but in <hi>Germany</hi> and other places where the Climate, or Win<g ref="char:EOLhyphen"/>ter is very cold, they cut off the Boughs, and Branches nigh to the Tree, and ſo lay the Tree along the ground, and cover it on each ſide, onely leaving the top uncovered, ſo to de<g ref="char:EOLhyphen"/>fend it from the nipping Froſt, and there let them remain till <hi>January,</hi> or <hi>February,</hi> but here in <hi>England</hi> the Froſt is not ſo ſharp, violent, or piercing but they may ſtand all the year: ſo that you need not cut them till proining time.</p>
+                  <p>
+                     <note place="margin">When to cut away the ſmall roots of the Vines.</note>But if it be ſo you do lay open your roots, you may cut away the ſmall ones, as being ſuperfluous, with care, and ſo will the principal root, or roots, proſper the better.</p>
+                  <p>This muſt be done but the firſt five years.</p>
+               </div>
+            </div>
+            <div n="13" type="chapter">
+               <head>CHAP. XIII. <hi>December.</hi>
+               </head>
+               <p>
+                  <note place="margin">Of Proining.</note>IN this Moneth you may proine your Vines here in <hi>Eng<g ref="char:EOLhyphen"/>land</hi> if you think you ſhall not have leaſure in <hi>January</hi> or <hi>February;</hi> but to do it in theſe moneths is the beſt and ſafeſt way, as I have before ſhown: <note place="margin">Of laying open the roots.</note>you may alſo if you pleaſe lay open the roots of your Vines, and having lien open a certain ſpace, ſtorcorize them, and lay the mould too a<g ref="char:EOLhyphen"/>gain.</p>
+               <p>And here I think it not amiſs to ſet down ſeveral things fit to be applyed to prevent the bleeding of Vines.</p>
+               <p>It falleth out many times that there are many ſort of Vines
+<pb n="24" facs="tcp:53759:17"/>
+                  <note place="margin">Of ſeveral things to be ap<g ref="char:EOLhyphen"/>plied to prevent the bleeding of Vines.</note>much ſubject to bleed when they are proined, or cut, eſpe<g ref="char:EOLhyphen"/>cially when the ſap is aſcended never ſo little, yea, ſome<g ref="char:EOLhyphen"/>times to the loſs of the Vine if it be not prevented in time; which to do, preſently cover the place with good ſtore of Turpentine, and it will ſometimes ſtay the bleeding: or, binde a packthread very ſtrai<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> about the Bark, or ſear the place with a hot Iron, and put hot aſhes preſently upon it: or,</p>
+               <p>Take the powder of <hi>Bole-almenack,</hi> and the white of an egge, beat the white of the egge well, and put too the bole, and mix them, and binde it faſt on the place that bleedeth, with flax, or linnen cloath: or,</p>
+               <p>Take the order of a man that is dry and ſtiff, and binde it on the place very hard with ſome packthread: or,</p>
+               <p>Drop on the place where it bleeds ſome melted Brim<g ref="char:EOLhyphen"/>ſtone, <hi>&amp;c.</hi>
+               </p>
+               <p>There are many other wayes to prevent this bleeding, or gleeting; but I ſuppoſe this is ſufficient at the preſent: ſo that here we ſhall conclude this with onely a ſmall addition of pretty receipts and uſeful upon many occaſions. If any be curious to know ſomething of the different kindes, and alſo the many vertues of the moderate uſe of Wines, he may partly be ſatisfied in peruſing Mr. <hi>Gerrards</hi> Herbal, from page 724. to page 736. where he hath ſet down a lively deſcri<g ref="char:EOLhyphen"/>ption thereof, <hi>&amp;c.</hi>
+               </p>
+            </div>
+            <div n="14" type="chapter">
+               <head>CHAP. XIIII. <hi>How to have Grapes to grow long upon the Vines.</hi>
+               </head>
+               <p>DO thus, put a Vine Branch through a Basket in <hi>December,</hi> chuſe ſuch a one as is like to bear Grapes, fill the Bas<g ref="char:EOLhyphen"/>ket with earth, and when the Grapes are ripe, cut off the Branch under the Basket, keep the Basket abroad whilſt it is warm weather, and within doors in cold weather.</p>
+               <div n="protecting grapes" type="part">
+                  <pb n="25" facs="tcp:53759:17"/>
+                  <head>Another way is this to have them grow late.</head>
+                  <p>Towards cold weather you may cover with Horſe Dung, or Flax (but I think Flax the beſt) all the ſtalks of the Vines, even to the bunches of Grapes, covering the bunches them<g ref="char:EOLhyphen"/>ſelves with ſtraw, or put them in Glaſſes, and ſo you may happen to have Grapes growing on the Vines at, or near <hi>Chriſtmas.</hi>
+                  </p>
+               </div>
+               <div n="preserving bunches" type="part">
+                  <head>How to preſerve bunches of Grapes very long.</head>
+                  <p>When the Grapes are ripe, and before the Froſt hath ta<g ref="char:EOLhyphen"/>ken them, in the new Moon gather as many of the faireſt bunches as you would keep, and having knocked ſome nails, or hooks into a Box, or Cheſt-lid, with ſome thread, hang ſome bunches thereon, ſo that they touch not one another, and ſhut down the lid cloſe that no aire come at them, and ſet them in a room wherein is uſually kept a fire, and when you would uſe them plump them in a little warm water.</p>
+               </div>
+               <div n="preserving branches" type="part">
+                  <head>Another way.</head>
+                  <p>If you cut a large Branch of the Vine which hath one, two, or three cluſters of Grapes on it, and at each end of the cutting thruſt onely the Branch whereon the bunches grow in a ſound and laſting apple, and ſo hang it up.</p>
+               </div>
+               <div n="preserving wine" type="part">
+                  <head>To keep Claret Wine, or any Wine good nine or ten Years.</head>
+                  <p>At every vintage draw almoſt every part out of the Hogſ<g ref="char:EOLhyphen"/>head, and then rowle it upon his Lees, and after fill it up with the beſt new Wine of the ſame kinde you can get.</p>
+               </div>
+               <div n="separating wine" type="part">
+                  <head>To ſeparate Water from Wine.</head>
+                  <p>To ſeparate Water from Wine, put into the veſſel of Wine melted Allum, and after ſtopping the mouth of the
+<pb n="26" facs="tcp:53759:18"/>ſaid veſſel with a ſpunge, drenched in oyl, turn the mouth of the veſſel ſo ſtopped downwards, and ſo the water onely will come out: or,</p>
+                  <p>Cauſe a veſſel of Ivy Wood to be made, and put there<g ref="char:EOLhyphen"/>in ſuch quantity of Wine as it will be able to hold<g ref="char:punc">▪</g> the water will come forth preſently, and the wine will abide pure and neat.</p>
+                  <p>Some do uſe preſently to change the Wine ſo watered, and to draw it out into another veſſel, and then to put a pint and a half of ſalt to every fifteen quarts of Wine.</p>
+                  <p>Others do boil the Wine upon the fire ſo long until the third part be conſumed, and the reſt they uſe three or four hours after.</p>
+               </div>
+               <div n="wine spirit" type="part">
+                  <head>How to make Spirit of Wine.</head>
+                  <p>This of all vegetables is the moſt precious thing, and alſo the trueſt of all Cordials, as we ſhall hereafter ſhow, and is thus made.</p>
+                  <p>Take of good white Claret Wine, or Sack, which is not ſowre nor muſty, or otherwiſe corrupt that quantity which may ſerve to fill the veſſel wherein you make your diſtilla<g ref="char:EOLhyphen"/>tion to a third part; then put on the head, furniſhed with the noſe, or pipe, and ſo make your diſtillation, firſt in aſhes, drawing about a third part from the whole: as for example, ſix or eight pints out of four and twenty, then ſtill it again in B. M. drawing a third part, which is two pints, ſo that the oftner you ſtill it the leſs liquor you have, but the more ſtrong; ſome uſe to rectifie it ſeven times.</p>
+               </div>
+               <div n="wine vinegar" type="part">
+                  <head>How to make good Vinegar.</head>
+                  <p>Take as much Wine as you ſee good, either white or red, and caſt into it Salt, Pepper, and ſower leaven mingled to<g ref="char:EOLhyphen"/>gether; afterwards heat red hot ſome tyle or gad of Steel, and put it hot into the Wine. Or</p>
+                  <p>In like manner a Radiſh-root, a Beet-root, or a ſhive of Barley bread new baked put in Wine, and it being ſet forth
+<pb n="27" facs="tcp:53759:18"/>in a Glaſs in the Sun or in the Chimney corner to the heat of the fire, will make good Vinegar in a ſhort time; which to make better you may infuſe in it the leaves of Red Roſes, or put in the Juice of Mints and Centry.</p>
+               </div>
+               <div n="spoilt-wine vinegar" type="part">
+                  <head>To make Vinegar with your corrupted Wine.</head>
+                  <p>Take your marred Wine and boil it, and take away all the ſcum that riſeth in boiling; thus let it continue on the fire till it be boiled away one third part, then put it up into a veſſel wherein hath been Vinegar, putting thereto ſome chervile, cover the veſſel in ſuch ſort that there get no air into it, and in ſhort time it will prove good and ſtrong Vinegar.</p>
+               </div>
+               <div n="verjuice" type="part">
+                  <head>To make Verjuice of Grapes.</head>
+                  <p>Take of your Grapes before they be quite Ripe, as many as you pleaſe, beat or bruiſe them, and preſs out the juice and put it into ſome ſmall veſſel that ſo you may fill it, let it ſtand to ſettle and work a pretty while, and you have an ex<g ref="char:EOLhyphen"/>cellent Verjuice for to ſharpen your ſauces and provoke or whet the appetite.</p>
+               </div>
+            </div>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+      <back>
+         <div type="publishers_advertisement">
+            <pb facs="tcp:53759:19"/>
+            <head>Books newly Printed for <hi>William Crooke,</hi> at the three Bibles on Fleet-bridge, <hi>1665.</hi>
+            </head>
+            <p>
+               <hi>SIn Diſmantled,</hi> ſhewing the loathſomneſs thereof in lay<g ref="char:EOLhyphen"/>ing it open by Confeſſion, with the Remedy for it by Repentance and Converſion; Wherein is ſet forth the man<g ref="char:EOLhyphen"/>ner how we ought to confeſs our ſins to God and Man, with the Conſiliary decrees from the Authorities thereof, and for the ſhewing the neceſſity of Prieſtly Abſolution, &amp;c. And an Hiſtorical relation of the Canons concerning Confeſſion, and the ſecret manner of it; alſo the Confeſſors affection and in<g ref="char:EOLhyphen"/>clinations are ſhewed, by <hi>K. A. L. Rev. L. I.</hi> D. D. 40. 1664.</p>
+            <p>There is newly engraven the ſo much deſired Cuts or Pi<g ref="char:EOLhyphen"/>ctures to the Old Teſtament, all lively done, to fit Bibles of all Volumes, ſmall and great, 1665.</p>
+            <p>
+               <hi>Sixty nine Enigmatical Characters,</hi> all exactly drawn to the Life, from ſeveral Perſons, Humours, and Diſpoſitions; pleaſant and full of delight the 2d. Impreſſion; by the Au<g ref="char:EOLhyphen"/>thor <hi>R. F.</hi> 
+               <abbr>Eſq</abbr> 1665.</p>
+            <p>The <hi>Royal Stem,</hi> being an account of all the moſt remark<g ref="char:EOLhyphen"/>able actions either by Land or Sea, in theſe Kingdoms ſince <hi>William</hi> the Conquerours time to this year 1665. With the Picture of K. <hi>Charles</hi> the IId. in the middle; all in a Broad<g ref="char:EOLhyphen"/>ſheet of Paper, fit to hang in Houſes, Cloſets, or Chambers.</p>
+            <p>The famous and delightful Hiſtory of St. <hi>George</hi> the Patron of <hi>England;</hi> ſhewing all his Life, Atchivements, Miracles, and Deeds of Renown, with his Converſion of <hi>Arabia,</hi> being the exacteſt relation ever was Printed, by the 16. years induſtry of <hi>J. Lowick</hi> Gent.</p>
+            <p>
+               <hi>Caliope's</hi> Cabinet Opened; wherein Gentlemen may be informed how to adorn themſelves for Funerals, Feaſtings, and other Heroick Meetings; alſo here they may know their places of worth, with all the degrees and diſtinctions of Ho<g ref="char:EOLhyphen"/>nour in the Realm: Shewing how every one ought to take place, with their Titles due to them; with other things of Antiquity very obſervable by <hi>James Salter</hi> 1665.</p>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:53759:19"/>
+         </div>
+      </back>
+   </text>
+</TEI>
